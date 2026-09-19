@@ -10,26 +10,12 @@
   "next": "Criar corpus de compatibilidade e testes determinísticos; depois preparar assinatura Developer ID e notarização.",
   "action": "Reunir amostras CDR redistribuíveis de versões distintas e transformar os casos válidos, corrompidos e incompatíveis em uma suíte de regressão.",
   "subprojects": [
-    {
-      "name": "Finder e Quick Look",
-      "progress": 100,
-      "status": "Miniaturas e preview multipágina concluídos"
-    },
-    {
-      "name": "Distribuição macOS",
-      "progress": 70,
-      "status": "DMG universal publicado; Developer ID e notarização pendentes"
-    },
-    {
-      "name": "Compatibilidade CDR",
-      "progress": 45,
-      "status": "CDR modernos e fallback raster funcionais; matriz de versões pendente"
-    },
-    {
-      "name": "Qualidade e regressão",
-      "progress": 35,
-      "status": "Build CI validado; corpus e testes do parser pendentes"
-    }
+    "Finder Thumbnails ✓",
+    "Quick Look multipágina ✓",
+    "DMG universal e GitHub Release ✓",
+    "Developer ID e notarização",
+    "Corpus e matriz de compatibilidade",
+    "Testes de regressão do parser"
   ],
   "runtime": {
     "label": "GitHub Release v1.0.0",
