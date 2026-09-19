@@ -68,6 +68,16 @@ Os artefatos universais são gerados em `dist/`:
   um interpretador completo do formato CDR.
 - A prévia multipágina é limitada a 512 páginas para manter o Finder responsivo.
 
+## Documentação
+
+- [Arquitetura e limites de segurança](docs/ARCHITECTURE.md)
+- [Desenvolvimento, testes e diagnóstico](docs/DEVELOPMENT.md)
+- [Roadmap](ROADMAP.md)
+- [Como contribuir](CONTRIBUTING.md)
+
+O estado resumido usado pelo Project Command Center é publicado em
+[`project-status.json`](project-status.json).
+
 ## Licença
 
 [MIT](LICENSE)

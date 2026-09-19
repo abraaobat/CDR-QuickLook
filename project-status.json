@@ -1,0 +1,45 @@
+{
+  "projectId": "cdr-quicklook",
+  "updatedAt": "2026-09-19T12:55:14-04:00",
+  "status": "v1.0.0 publicada / manutenção ativa",
+  "statusClass": "ops",
+  "progress": 70,
+  "roadmap": "F0–F5 • F0/F1/F2/F3 concluídos • F4 ativo • F5 futuro",
+  "current": "v1.0.0 publicada com miniaturas, Quick Look multipágina, janela inicial ampla, DMG/ZIP universal e CI validado.",
+  "architecture": "Finder/Quick Look → extensões Preview e Thumbnail → leitor ZIP ou busca raster limitada → PNG/JPEG incorporado → PDFKit/ImageIO; aplicativo host registra as extensões com PlugInKit.",
+  "next": "Criar corpus de compatibilidade e testes determinísticos; depois preparar assinatura Developer ID e notarização.",
+  "action": "Reunir amostras CDR redistribuíveis de versões distintas e transformar os casos válidos, corrompidos e incompatíveis em uma suíte de regressão.",
+  "subprojects": [
+    {
+      "name": "Finder e Quick Look",
+      "progress": 100,
+      "status": "Miniaturas e preview multipágina concluídos"
+    },
+    {
+      "name": "Distribuição macOS",
+      "progress": 70,
+      "status": "DMG universal publicado; Developer ID e notarização pendentes"
+    },
+    {
+      "name": "Compatibilidade CDR",
+      "progress": 45,
+      "status": "CDR modernos e fallback raster funcionais; matriz de versões pendente"
+    },
+    {
+      "name": "Qualidade e regressão",
+      "progress": 35,
+      "status": "Build CI validado; corpus e testes do parser pendentes"
+    }
+  ],
+  "runtime": {
+    "label": "GitHub Release v1.0.0",
+    "url": "https://github.com/abraaobat/CDR-QuickLook/releases/tag/v1.0.0",
+    "status": "available",
+    "note": "DMG e ZIP universais publicados; assinatura ad-hoc, notarização pendente."
+  },
+  "activity": {
+    "date": "2026-09-19",
+    "type": "release",
+    "text": "CDR QuickLook v1.0.0 publicada com miniaturas, preview multipágina, janela inicial 1000 × 760, instalador DMG universal e documentação técnica."
+  }
+}
