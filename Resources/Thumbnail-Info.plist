@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>pt_BR</string>
+    <key>CFBundleDisplayName</key>
+    <string>CDR Thumbnail</string>
+    <key>CFBundleExecutable</key>
+    <string>CDRThumbnail</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.abraaobat.cdrquicklook.thumbnail</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>CDRThumbnail</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>100</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.4</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>QLSupportedContentTypes</key>
+            <array>
+                <string>com.abraaobat.coreldraw-document</string>
+                <string>com.apple.disk-image-cdr</string>
+            </array>
+        </dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.quicklook.thumbnail</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>ThumbnailProvider</string>
+    </dict>
+</dict>
+</plist>

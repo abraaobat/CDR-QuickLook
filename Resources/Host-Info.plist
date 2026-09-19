@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>pt_BR</string>
+    <key>CFBundleDisplayName</key>
+    <string>CDR QuickLook</string>
+    <key>CFBundleExecutable</key>
+    <string>CDRQuickLook</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.abraaobat.cdrquicklook</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>CDR QuickLook</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>100</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.4</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>cdr</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>CorelDRAW Document</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSHandlerRank</key>
+            <string>Alternate</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>com.abraaobat.coreldraw-document</string>
+            </array>
+        </dict>
+    </array>
+    <key>UTExportedTypeDeclarations</key>
+    <array>
+        <dict>
+            <key>UTTypeConformsTo</key>
+            <array>
+                <string>public.data</string>
+                <string>public.content</string>
+                <string>public.image</string>
+            </array>
+            <key>UTTypeDescription</key>
+            <string>CorelDRAW Document</string>
+            <key>UTTypeIdentifier</key>
+            <string>com.abraaobat.coreldraw-document</string>
+            <key>UTTypeTagSpecification</key>
+            <dict>
+                <key>public.filename-extension</key>
+                <array>
+                    <string>cdr</string>
+                </array>
+                <key>public.mime-type</key>
+                <array>
+                    <string>application/cdr</string>
+                    <string>application/coreldraw</string>
+                    <string>application/vnd.corel-draw</string>
+                    <string>application/x-cdr</string>
+                    <string>image/x-cdr</string>
+                </array>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

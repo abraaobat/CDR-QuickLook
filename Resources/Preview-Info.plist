@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>pt_BR</string>
+    <key>CFBundleDisplayName</key>
+    <string>CDR Preview</string>
+    <key>CFBundleExecutable</key>
+    <string>CDRPreview</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.abraaobat.cdrquicklook.preview</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>CDRPreview</string>
+    <key>CFBundlePackageType</key>
+    <string>XPC!</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+    <key>CFBundleVersion</key>
+    <string>100</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>12.4</string>
+    <key>NSExtension</key>
+    <dict>
+        <key>NSExtensionAttributes</key>
+        <dict>
+            <key>QLSupportedContentTypes</key>
+            <array>
+                <string>com.abraaobat.coreldraw-document</string>
+                <!-- macOS reserves .cdr for CD/DVD master images. CorelDRAW
+                     files therefore arrive at Quick Look with this system
+                     UTI even when their contents are CorelDRAW ZIP/RIFF. -->
+                <string>com.apple.disk-image-cdr</string>
+            </array>
+            <key>QLSupportsSearchableItems</key>
+            <false/>
+        </dict>
+        <key>NSExtensionPointIdentifier</key>
+        <string>com.apple.quicklook.preview</string>
+        <key>NSExtensionPrincipalClass</key>
+        <string>PreviewViewController</string>
+    </dict>
+</dict>
+</plist>
